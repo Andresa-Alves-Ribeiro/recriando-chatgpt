@@ -1,0 +1,37 @@
+.sidemenu {
+  width: 260px;
+  padding-top: 10px;
+  background-color: #202123;
+  font-size: 14px;
+}
+
+.sidemenu-button {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+  transition: ease 0.25 all;
+  gap: 20rem;
+  justify-content: space-evenly;
+}
+
+.menu-top {
+  display: flex;
+  padding-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-top span {
+  padding-left: 0.8rem;
+}
+
+.menu-bottom {
+  display: flex;
+  padding-top: 1.8rem;
+  cursor: pointer;
+}
+
+.menu-bottom span {
+  padding-left: 0.8rem;
+}
