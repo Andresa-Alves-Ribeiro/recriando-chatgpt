@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const URL_API = 'http://localhost:3000/api/prompt'
+const URL_API = 'https://recriando-chatgpt-api.onrender.com/api/prompt'
 
 export const makeRequest = async (message) => {
     console.log(message)
