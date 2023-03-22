@@ -3,6 +3,16 @@
   padding-top: 10px;
   background-color: #202123;
   font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidemenu.show {
+  left: 0;
 }
 
 .sidemenu-button {
@@ -11,14 +21,13 @@
   padding: 15px;
   border-radius: 5px;
   text-align: left;
-  transition: ease 0.25 all;
   gap: 20rem;
   justify-content: space-evenly;
 }
 
 .menu-top {
   display: flex;
-  padding-bottom: 1.5rem;
+  padding: 1rem 0 22rem 1rem;
   cursor: pointer;
 }
 
@@ -28,10 +37,71 @@
 
 .menu-bottom {
   display: flex;
-  padding-top: 1.8rem;
+  padding: 0.9rem 0rem 1rem 1rem;
   cursor: pointer;
 }
 
 .menu-bottom span {
   padding-left: 0.8rem;
+}
+
+.menu-close-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidemenu {
+    width: 70%;
+    left: -100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .sidemenu-wrapper {
+    background-color: #444654;
+  }
+
+  .sidemenu-button {
+    padding: 15px 20px;
+  }
+
+  .sidemenu.show {
+    left: 0;
+  }
+
+  .sidemenu-item.menu-top .menu-top-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .sidemenu-item.menu-top .menu-top-inner span {
+    margin-left: 4px;
+  }
+
+  .menu-close-button {
+    background-color: transparent;
+    border: none;
+    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-close-button:hover {
+    background-color: rgba(32, 33, 35, 0.5);
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu-top {
+    display: flex;
+    padding: 1rem 0 41rem 1rem;
+    cursor: pointer;
+  }
+
+  .menu-bottom {
+    display: flex;
+    padding: 1rem 0rem 1rem 1rem;
+    cursor: pointer;
+  }
 }

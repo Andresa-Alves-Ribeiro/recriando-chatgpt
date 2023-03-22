@@ -1,20 +1,41 @@
-.chat-message.chatgpt{
-    background-color: #444654;
+.chat-message {
+  padding-left: 6rem;
+}
+
+.chat-message.chatgpt {
+  background-color: #444654;
+}
+
+.chat-message-center {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  padding-top: 1.2rem;
+}
+
+.message {
+  padding-left: 2rem;
+  padding-right: 40px;
+}
+
+.avatar {
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.chatgpt {
+  background: #0da37f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .chat-message {
+    padding-left: 0rem;
   }
-  
-  .chat-message-center{
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  
-    padding: 12px;
-  
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-  
-  .message{
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+}
