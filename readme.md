@@ -27,8 +27,9 @@
 
 ## 💻 Sobre o projeto
 
-O objetivo deste projeto é recriar o layout do site ChatGPT e fazer a integração de API com preenchimento de texto openIA (ChatGPT) com Node.
-Aprendi a ler corretamente os documentos da API da Web com este projeto. E revi os conceitos de backend com o express e o axios.
+Ultimamente esta AI está em alta e achei importante estuda-la e entender como funciona seu processo. Uma das metas também, era deixá-lo o mais próximo possível do design. Para obter as respostas da AI no front-end, utilizei o Axios para receber o server criado em um repositório separado e com deploy no Render. Criei este server usando a API disponibilizada pela própria OpenAI e rodando utilizando o Node.js, Express, Javascript e o Cors. Com esse projeto pratiquei novamente o consumo de API junto com o React/Typescript. Pretendo fazer melhorias no layout e no input, para melhorar a experiência dos usuários ao digitar um texto mais longo.
+
+A landing page é compatível com diversos tipos de resolução de telas, por exemplo: a. Desktop (1920px) b. Laptop (1440px) c. Tablet (768px) d. Mobile (375px).
 
 Possui as funcionalidades de:
 
