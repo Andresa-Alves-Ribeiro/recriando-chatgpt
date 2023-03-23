@@ -4,7 +4,7 @@ import './styles/reset.css';
 import ChatMessage from './components/ChatMessage/ChatMessage'
 import SideMenu from './components/SideMenu/Sidemenu'
 import { makeRequest } from './api/api'
-
+import { PaperPlaneTilt } from '@phosphor-icons/react'
 
 function App() {
   const [input, setInput] = useState("")
@@ -52,6 +52,9 @@ function App() {
               onChange={e => setInput(e.target.value)}
             >
             </input>
+            <button type="submit" className="chat-input-paper-plane" >
+              <PaperPlaneTilt size={16} color="#ffffff" weight="bold" />
+            </button>
           </form>
         </div>
       </section>

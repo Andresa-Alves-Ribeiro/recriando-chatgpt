@@ -55,10 +55,11 @@
 
 .chat-input-holder {
   padding: 24px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  background-color: #353541;
 }
 
 .chat-input-textarea {
@@ -74,6 +75,20 @@
   outline: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0.25);
   resize: none;
+}
+
+.chat-input-paper-plane {
+  position: absolute;
+  background: transparent;
+  border: none;
+  right: 340px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.chat-input-paper-plane:hover {
+  opacity: 0.5;
 }
 
 .chat-log {
@@ -111,5 +126,9 @@
     outline: none;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0.25);
     resize: none;
+  }
+
+  .chat-input-paper-plane {
+    right: 40px;
   }
 }

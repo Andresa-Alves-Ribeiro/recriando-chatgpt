@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Sidemenu.css'
-import { Plus, Trash, User, Moon, Sun, ArrowSquareOut, SignOut, X } from '@phosphor-icons/react'
+import { Plus, Trash, User, Moon, ArrowSquareOut, SignOut, X } from '@phosphor-icons/react'
 
 const SideMenu = () => {
   const [showMenu, setShowMenu] = useState(false);

@@ -28,7 +28,6 @@
 .menu-top {
   display: flex;
   padding: 1rem 0 22rem 1rem;
-  cursor: pointer;
 }
 
 .menu-top span {
@@ -38,7 +37,6 @@
 .menu-bottom {
   display: flex;
   padding: 0.9rem 0rem 1rem 1rem;
-  cursor: pointer;
 }
 
 .menu-bottom span {
@@ -96,12 +94,10 @@
   .menu-top {
     display: flex;
     padding: 1rem 0 41rem 1rem;
-    cursor: pointer;
   }
 
   .menu-bottom {
     display: flex;
     padding: 1rem 0rem 1rem 1rem;
-    cursor: pointer;
   }
 }
