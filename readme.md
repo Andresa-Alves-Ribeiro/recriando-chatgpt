@@ -15,8 +15,11 @@
 &nbsp;
 
 **Desktop View**
+![web](https://user-images.githubusercontent.com/94997593/227236273-defeff13-62f5-427e-8dd3-e8169483e9b8.png)
+
 
 **Mobile View** <br/>
+![mobile](https://user-images.githubusercontent.com/94997593/227236344-a41bf1eb-0ad6-431d-bb2c-8046fae7bf48.png)
 
 &nbsp;
 <a id="-sobre-o-projeto"></a>
