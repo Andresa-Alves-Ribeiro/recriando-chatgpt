@@ -75,6 +75,8 @@
   outline: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0.25);
   resize: none;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 .chat-input-paper-plane {

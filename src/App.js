@@ -45,13 +45,13 @@ function App() {
 
         <div className='chat-input-holder'>
           <form onSubmit={handleSubmit}>
-            <input
+            <textarea
               rows='1'
               className='chat-input-textarea'
               value={input}
               onChange={e => setInput(e.target.value)}
             >
-            </input>
+            </textarea>
             <button type="submit" className="chat-input-paper-plane" >
               <PaperPlaneTilt size={16} color="#ffffff" weight="bold" />
             </button>
