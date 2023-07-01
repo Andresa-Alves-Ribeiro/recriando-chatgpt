@@ -15,19 +15,22 @@
 &nbsp;
 
 **Desktop View**
-![web](https://user-images.githubusercontent.com/94997593/227315882-be76973e-0e0f-48d0-9a4d-382bd8cf133c.png)
+
+![web](https://user-images.githubusercontent.com/94997593/236954945-8278eac6-ac64-4e98-8816-4965eb164897.png)
 
 
 **Mobile View** <br/>
 ![mobile](https://user-images.githubusercontent.com/94997593/227315940-a38b0a29-375f-43a0-a425-921651436cef.png)
+
 
 &nbsp;
 <a id="-sobre-o-projeto"></a>
 
 ## 💻 Sobre o projeto
 
-O objetivo deste projeto é recriar o layout do site ChatGPT e fazer a integração de API com preenchimento de texto openIA (ChatGPT) com Node.
-Aprendi a ler corretamente os documentos da API da Web com este projeto. E revi os conceitos de backend com o express e o axios.
+Ultimamente esta AI está em alta e achei importante estuda-la e entender como funciona seu processo. Uma das metas também, era deixá-lo o mais próximo possível do design. Para obter as respostas da AI no front-end, utilizei o Axios para receber o server criado em um repositório separado e com deploy no Render. Criei este server usando a API disponibilizada pela própria OpenAI e rodando utilizando o Node.js, Express, Javascript e o Cors. Com esse projeto pratiquei novamente o consumo de API junto com o React/Typescript. Pretendo fazer melhorias no layout e no input, para melhorar a experiência dos usuários ao digitar um texto mais longo.
+
+A landing page é compatível com diversos tipos de resolução de telas, por exemplo: a. Desktop (1920px) b. Laptop (1440px) c. Tablet (768px) d. Mobile (375px).
 
 Possui as funcionalidades de:
 
